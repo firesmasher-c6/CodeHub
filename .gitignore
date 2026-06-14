@@ -1,0 +1,25 @@
+# Environment variables - DO NOT COMMIT
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build files
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
